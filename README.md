@@ -8,7 +8,7 @@ Users should be able to enter a `member id` and then place `items` in a `order`.
 
 The application does not handle payment (all done in person), the goal it to increase the number of people who can shop by removing the physical limit of being in the store.
 
-<img src="screen.png" width="400px"/>
+<img src="images/screen.png" width="400px"/>
 
 ## 🏃‍♀️ How to run me
 
