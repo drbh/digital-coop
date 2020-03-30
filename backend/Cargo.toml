@@ -1,0 +1,19 @@
+[package]
+name = "warp_subscriptions"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "2.0.0"
+actix-rt = "1.0.0"
+env_logger = "0.7.1"
+serde = {version = "1.0.103", features=["derive"]}
+serde_json = "1.0.44"
+serde_derive = "1.0.103"
+juniper = "0.14.2"
+# hotpot-db="0.0.2"
+hotpot-db= { path = "/Users/drbh2/Desktop/hotpot-db" }
+nanoid = "0.3.0"
+actix-cors = "0.2.0"
